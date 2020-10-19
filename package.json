@@ -1,6 +1,14 @@
 {
   "name": "angular",
   "version": "0.0.0",
+  "main": "dist/angular/bundles/cross-ui-angular.umd.js",
+  "module": "dist/angular/fesm2015/cross-ui-angular.js",
+  "es2015": "dist/angular/fesm2015/cross-ui-angular.js",
+  "esm2015": "dist/angular/esm2015/cross-ui-angular.js",
+  "fesm2015": "dist/angular/fesm2015/cross-ui-angular.js",
+  "typings": "dist/angular/cross-ui-angular.d.ts",
+  "metadata": "dist/angular/cross-ui-angular.metadata.json",
+  "sideEffects": false,
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
