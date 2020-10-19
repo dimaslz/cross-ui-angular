@@ -1,0 +1,19 @@
+{
+  "name": "@cross-ui/angular",
+  "version": "0.0.1",
+  "peerDependencies": {
+    "@angular/common": "^10.1.6",
+    "@angular/core": "^10.1.6"
+  },
+  "dependencies": {
+    "tslib": "^2.0.0"
+  },
+  "main": "bundles/cross-ui-angular.umd.js",
+  "module": "fesm2015/cross-ui-angular.js",
+  "es2015": "fesm2015/cross-ui-angular.js",
+  "esm2015": "esm2015/cross-ui-angular.js",
+  "fesm2015": "fesm2015/cross-ui-angular.js",
+  "typings": "cross-ui-angular.d.ts",
+  "metadata": "cross-ui-angular.metadata.json",
+  "sideEffects": false
+}
