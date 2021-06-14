@@ -7,4 +7,12 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   colors = ['primary', 'secondary', 'accent', 'danger', 'warning', 'success', 'info'];
+
+  onClick($event: any) {
+    console.log("onClick")
+  }
+
+  onBlur($event: any) {
+    console.log("onBlur")
+  }
 }

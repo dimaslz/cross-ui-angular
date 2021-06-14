@@ -1,11 +1,24 @@
 <div class="flex flex-wrap">
-  <cui-button
-    *ngFor="let color of colors"
-    [color]="color"
-    outline
-  >
-  my button
-</cui-button>
+  <div class="flex">
+    <cui-button
+      *ngFor="let color of colors"
+      [color]="color"
+      (click)="onClick($event)"
+    >
+      my button
+    </cui-button>
+  </div>
+  <div class="flex">
+    <cui-button
+      *ngFor="let color of colors"
+      [color]="color"
+      [outline]="true"
+      (click)="onClick($event)"
+      (blur)="onClick($event)"
+    >
+      my button
+    </cui-button>
+  </div>
 </div>
 <!-- <div class="flex flex-wrap">
   <div class="flex flex-col">
