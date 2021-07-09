@@ -2,9 +2,7 @@ import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
 
 @Component({
   selector: 'cui-button',
-  templateUrl: './button.component.html',
-  styles: [
-  ]
+  templateUrl: 'button.component.html',
 })
 export class ButtonComponent implements OnInit {
   @Input() fullWidth: boolean = false;
