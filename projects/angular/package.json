@@ -5,16 +5,17 @@
   "ngPackage": {
     "lib": {
       "entryFile": "src/public-api.ts"
-    }
+    },
+    "allowedNonPeerDependencies": [
+      "@cross-ui/core"
+    ]
   },
   "peerDependencies": {
     "@angular/common": "^12.0.4",
     "@angular/core": "^12.0.4"
   },
   "dependencies": {
-    "tslib": "^2.1.0"
-  },
-  "allowedNonPeerDependencies": [
-    "@cross-ui/core"
-  ]
+    "tslib": "^2.1.0",
+    "@cross-ui/core": "^0.0.1-alpha.4"
+  }
 }
