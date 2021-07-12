@@ -1,13 +1,12 @@
 # CrossUI Angular
-**[WIP]** Angular wrapper to easy use for [CrossUI components](https://github.com/dimaslz/cross-ui-core) in your Angular applications.
+Angular wrapper to easy use for [CrossUI components](https://github.com/dimaslz/cross-ui-core) in your Angular applications.
 
-### NOTE
-
+We are in alpha version. if you would like to use this in one of your projects, let me know to motivating me 👨‍💻.
 
 ## Installation
-`npm install https://github.com/dimaslz/cross-ui-core`
+`npm install @cross-ui/angular`
 
-`yarn add https://github.com/dimaslz/cross-ui-core`
+`yarn add @cross-ui/angular`
 
 Now, in your main module, commonly `app.module.ts`:
 ```typescript
@@ -21,7 +20,6 @@ import { NgCrossUIModule } from '@cross-ui/angular';
     NgCrossUIModule,
   ],
   //...
-  schemas: [CUSTOM_ELEMENTS_SCHEMA],
 })
 export class AppModule { }
 ```
